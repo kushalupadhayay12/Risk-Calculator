@@ -1,4 +1,4 @@
-package com.example.dynamic.service.exceptions;
+package com.example.dynamic.exceptions;
 
 public class DimensionNotFoundException extends Exception {
 

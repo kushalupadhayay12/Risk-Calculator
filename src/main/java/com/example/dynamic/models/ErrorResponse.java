@@ -10,7 +10,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "error_responce")
+@Table(name = "error_response")
 public class ErrorResponse {
 
 	@Id

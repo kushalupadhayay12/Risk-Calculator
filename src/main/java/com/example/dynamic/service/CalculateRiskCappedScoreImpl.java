@@ -46,13 +46,10 @@ public class CalculateRiskCappedScoreImpl implements CalculateRiskCappedScore {
 
 			for (RiskScoreLevel riskScoreLevel : riskScoreList) {
 //				Example -> 41-60
-				String scoreExpression = riskScoreLevel.getScore();
-				String[] numbers = scoreExpression.split("-");
+				int lowerBoundScore = riskScoreLevel.getLowerBound();
+				int upperBoundScore = riskScoreLevel.getUpperBound();
 
-				int lowerBound = Integer.parseInt(numbers[0]);
-				int upperBound = Integer.parseInt(numbers[1]);
-
-				if (value >= lowerBound && value <= upperBound) {
+				if (value >= lowerBoundScore && value <= upperBoundScore) {
 					levelCounter.put(riskScoreLevel.getLevel(),
 							levelCounter.getOrDefault(riskScoreLevel.getLevel(), 0) + 1);
 				}

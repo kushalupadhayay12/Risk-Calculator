@@ -4,6 +4,7 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.validation.constraints.Max;
 
 @Entity
 @Table(name = "score_cap_table")
@@ -20,6 +21,7 @@ public class RiskScoreCap {
     private int counter;
 
     @Column
+    @Max(99)
     private int value;
 
     // Constructors, getters, and setters

@@ -1,0 +1,1170 @@
+2023-07-10 14:03:47.145  INFO 4548 --- [main] com.example.dynamic.DynamicApplication   : Starting DynamicApplication using Java 11.0.1 on IN-94682J3 with PID 4548 (C:\Users\kushalupadhayay\Downloads\dynamic\QCalculator\target\classes started by kushalupadhayay in C:\Users\kushalupadhayay\Downloads\dynamic\QCalculator)
+2023-07-10 14:03:47.156  INFO 4548 --- [main] com.example.dynamic.DynamicApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-07-10 14:03:48.084  INFO 4548 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-10 14:03:48.207  INFO 4548 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 110 ms. Found 7 JPA repository interfaces.
+2023-07-10 14:03:49.196  INFO 4548 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2023-07-10 14:03:49.210  INFO 4548 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-10 14:03:49.211  INFO 4548 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-07-10 14:03:49.399  INFO 4548 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-10 14:03:49.400  INFO 4548 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2177 ms
+2023-07-10 14:03:49.610  INFO 4548 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-10 14:03:49.677  INFO 4548 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-07-10 14:03:49.850  INFO 4548 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-07-10 14:03:49.974  INFO 4548 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-10 14:03:50.461  INFO 4548 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-10 14:03:50.475  INFO 4548 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-07-10 14:03:51.398  INFO 4548 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-10 14:03:51.406  INFO 4548 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-10 14:03:52.394  WARN 4548 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-10 14:03:52.809  INFO 4548 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2023-07-10 14:03:52.820  INFO 4548 --- [scheduling-1] c.example.dynamic.TaskSchedulerService   : Runnning......................
+2023-07-10 14:03:52.828  INFO 4548 --- [main] com.example.dynamic.DynamicApplication   : Started DynamicApplication in 6.155 seconds (JVM running for 6.736)
+2023-07-10 14:03:52.948  INFO 4548 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-10 14:03:52.948  INFO 4548 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-10 14:03:52.949  INFO 4548 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-07-10 14:03:52.982  INFO 4548 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Calculating risk scores for all companies...
+2023-07-10 14:03:53.063  INFO 4548 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: TCS
+2023-07-10 14:03:53.591  INFO 4548 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: TCS
+2023-07-10 14:03:53.643  INFO 4548 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: TCS
+2023-07-10 14:03:53.643  INFO 4548 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Google
+2023-07-10 14:03:53.745  INFO 4548 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Google
+2023-07-10 14:03:53.752  INFO 4548 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Google
+2023-07-10 14:03:53.752  INFO 4548 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Nagarro
+2023-07-10 14:03:53.876  INFO 4548 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Nagarro
+2023-07-10 14:03:53.883  INFO 4548 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Nagarro
+2023-07-10 14:03:53.883  INFO 4548 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Microsoft
+2023-07-10 14:03:53.983  INFO 4548 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Microsoft
+2023-07-10 14:03:53.989  INFO 4548 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Microsoft
+2023-07-10 14:03:53.989  INFO 4548 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk scores calculated for all companies.
+2023-07-10 14:03:54.113  INFO 4548 --- [scheduling-1] c.example.dynamic.TaskSchedulerService   : GET request to my-endpoint, response code: 200
+2023-07-10 14:08:16.562  INFO 4548 --- [http-nio-9090-exec-7] c.e.d.service.CalculationServiceImpl     : Retrieving all company data.
+2023-07-10 14:08:16.732  INFO 4548 --- [http-nio-9090-exec-7] c.e.d.service.CalculationServiceImpl     : Retrieved all company data successfully.
+2023-07-10 14:09:02.578  INFO 4548 --- [http-nio-9090-exec-8] c.e.d.service.CalculationServiceImpl     : Retrieving all company data.
+2023-07-10 14:09:02.590  INFO 4548 --- [http-nio-9090-exec-8] c.e.d.service.CalculationServiceImpl     : Retrieved all company data successfully.
+2023-07-10 14:11:57.409  INFO 4548 --- [http-nio-9090-exec-3] c.e.d.service.CalculationServiceImpl     : Retrieving all company data.
+2023-07-10 14:11:57.433  INFO 4548 --- [http-nio-9090-exec-3] c.e.d.service.CalculationServiceImpl     : Retrieved all company data successfully.
+2023-07-10 14:11:57.441  INFO 4548 --- [http-nio-9090-exec-4] c.e.d.service.CalculationServiceImpl     : Retrieving all company data.
+2023-07-10 14:11:57.465  INFO 4548 --- [http-nio-9090-exec-4] c.e.d.service.CalculationServiceImpl     : Retrieved all company data successfully.
+2023-07-10 14:12:02.766  INFO 4548 --- [http-nio-9090-exec-6] c.e.d.service.CalculationServiceImpl     : Retrieving all risk score caps.
+2023-07-10 14:12:02.772  INFO 4548 --- [http-nio-9090-exec-6] c.e.d.service.CalculationServiceImpl     : Retrieved all risk score caps.
+2023-07-10 14:12:02.783  INFO 4548 --- [http-nio-9090-exec-7] c.e.d.service.CalculationServiceImpl     : Retrieving all risk score caps.
+2023-07-10 14:12:02.789  INFO 4548 --- [http-nio-9090-exec-7] c.e.d.service.CalculationServiceImpl     : Retrieved all risk score caps.
+2023-07-10 14:12:09.070  INFO 4548 --- [http-nio-9090-exec-10] c.e.d.service.CalculationServiceImpl     : Retrieving all risk score caps.
+2023-07-10 14:12:09.073  INFO 4548 --- [http-nio-9090-exec-10] c.e.d.service.CalculationServiceImpl     : Retrieved all risk score caps.
+2023-07-10 14:12:09.082  INFO 4548 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Retrieving all risk score caps.
+2023-07-10 14:12:09.087  INFO 4548 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Retrieved all risk score caps.
+2023-07-10 14:12:12.818  INFO 4548 --- [scheduling-1] c.example.dynamic.TaskSchedulerService   : Runnning......................
+2023-07-10 14:12:12.819  INFO 4548 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Calculating risk scores for all companies...
+2023-07-10 14:12:12.831  INFO 4548 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: TCS
+2023-07-10 14:12:12.990  INFO 4548 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: TCS
+2023-07-10 14:12:12.998  INFO 4548 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: TCS
+2023-07-10 14:12:12.999  INFO 4548 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Google
+2023-07-10 14:12:13.147  INFO 4548 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Google
+2023-07-10 14:12:13.159  INFO 4548 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Google
+2023-07-10 14:12:13.160  INFO 4548 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Nagarro
+2023-07-10 14:12:13.304  INFO 4548 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Nagarro
+2023-07-10 14:12:13.315  INFO 4548 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Nagarro
+2023-07-10 14:12:13.315  INFO 4548 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Microsoft
+2023-07-10 14:12:13.444  INFO 4548 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Microsoft
+2023-07-10 14:12:13.454  INFO 4548 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Microsoft
+2023-07-10 14:12:13.454  INFO 4548 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Risk scores calculated for all companies.
+2023-07-10 14:12:13.463  INFO 4548 --- [scheduling-1] c.example.dynamic.TaskSchedulerService   : GET request to my-endpoint, response code: 200
+2023-07-10 14:13:45.671  INFO 4548 --- [http-nio-9090-exec-10] c.e.d.service.CalculationServiceImpl     : Retrieving all risk score caps.
+2023-07-10 14:13:45.678  INFO 4548 --- [http-nio-9090-exec-10] c.e.d.service.CalculationServiceImpl     : Retrieved all risk score caps.
+2023-07-10 14:13:45.686  INFO 4548 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Retrieving all risk score caps.
+2023-07-10 14:13:45.694  INFO 4548 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Retrieved all risk score caps.
+2023-07-10 14:15:47.488  INFO 4548 --- [http-nio-9090-exec-8] c.e.d.service.CalculationServiceImpl     : Retrieving all risk score caps.
+2023-07-10 14:15:47.493  INFO 4548 --- [http-nio-9090-exec-8] c.e.d.service.CalculationServiceImpl     : Retrieved all risk score caps.
+2023-07-10 14:15:47.500  INFO 4548 --- [http-nio-9090-exec-9] c.e.d.service.CalculationServiceImpl     : Retrieving all risk score caps.
+2023-07-10 14:15:47.505  INFO 4548 --- [http-nio-9090-exec-9] c.e.d.service.CalculationServiceImpl     : Retrieved all risk score caps.
+2023-07-10 14:16:26.132  INFO 4548 --- [http-nio-9090-exec-5] c.e.d.service.CalculationServiceImpl     : Retrieving all risk score caps.
+2023-07-10 14:16:26.138  INFO 4548 --- [http-nio-9090-exec-5] c.e.d.service.CalculationServiceImpl     : Retrieved all risk score caps.
+2023-07-10 14:16:26.143  INFO 4548 --- [http-nio-9090-exec-6] c.e.d.service.CalculationServiceImpl     : Retrieving all risk score caps.
+2023-07-10 14:16:26.148  INFO 4548 --- [http-nio-9090-exec-6] c.e.d.service.CalculationServiceImpl     : Retrieved all risk score caps.
+2023-07-10 14:18:43.166 ERROR 4548 --- [http-nio-9090-exec-6] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.InvalidDataAccessApiUsageException: Modifying queries can only use void or int/Integer as return type! Offending method: public abstract com.example.dynamic.models.RiskScoreCap com.example.dynamic.repositories.RiskScoreCapRepository.deleteByRiskScoreAndCounter(java.lang.String,int); nested exception is java.lang.IllegalArgumentException: Modifying queries can only use void or int/Integer as return type! Offending method: public abstract com.example.dynamic.models.RiskScoreCap com.example.dynamic.repositories.RiskScoreCapRepository.deleteByRiskScoreAndCounter(java.lang.String,int)] with root cause
+
+java.lang.IllegalArgumentException: Modifying queries can only use void or int/Integer as return type! Offending method: public abstract com.example.dynamic.models.RiskScoreCap com.example.dynamic.repositories.RiskScoreCapRepository.deleteByRiskScoreAndCounter(java.lang.String,int)
+	at org.springframework.util.Assert.isTrue(Assert.java:121) ~[spring-core-5.3.27.jar:5.3.27]
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$ModifyingExecution.<init>(JpaQueryExecution.java:226) ~[spring-data-jpa-2.7.11.jar:2.7.11]
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.getExecution(AbstractJpaQuery.java:176) ~[spring-data-jpa-2.7.11.jar:2.7.11]
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:144) ~[spring-data-jpa-2.7.11.jar:2.7.11]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137) ~[spring-data-commons-2.7.11.jar:2.7.11]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121) ~[spring-data-commons-2.7.11.jar:2.7.11]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:160) ~[spring-data-commons-2.7.11.jar:2.7.11]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:139) ~[spring-data-commons-2.7.11.jar:2.7.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:81) ~[spring-data-commons-2.7.11.jar:2.7.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-5.3.27.jar:5.3.27]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388) ~[spring-tx-5.3.27.jar:5.3.27]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137) ~[spring-tx-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:145) ~[spring-data-jpa-2.7.11.jar:2.7.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:220) ~[spring-aop-5.3.27.jar:5.3.27]
+	at com.sun.proxy.$Proxy128.deleteByRiskScoreAndCounter(Unknown Source) ~[na:na]
+	at com.example.dynamic.service.CalculationServiceImpl.deleteScoreCap(CalculationServiceImpl.java:432) ~[classes/:na]
+	at com.example.dynamic.controllers.RiskController.deleteScoreCap(RiskController.java:142) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:931) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:561) ~[tomcat-embed-core-9.0.74.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[tomcat-embed-core-9.0.74.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2023-07-10 14:19:28.641 ERROR 4548 --- [http-nio-9090-exec-8] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.InvalidDataAccessApiUsageException: Modifying queries can only use void or int/Integer as return type! Offending method: public abstract com.example.dynamic.models.RiskScoreCap com.example.dynamic.repositories.RiskScoreCapRepository.deleteByRiskScoreAndCounter(java.lang.String,int); nested exception is java.lang.IllegalArgumentException: Modifying queries can only use void or int/Integer as return type! Offending method: public abstract com.example.dynamic.models.RiskScoreCap com.example.dynamic.repositories.RiskScoreCapRepository.deleteByRiskScoreAndCounter(java.lang.String,int)] with root cause
+
+java.lang.IllegalArgumentException: Modifying queries can only use void or int/Integer as return type! Offending method: public abstract com.example.dynamic.models.RiskScoreCap com.example.dynamic.repositories.RiskScoreCapRepository.deleteByRiskScoreAndCounter(java.lang.String,int)
+	at org.springframework.util.Assert.isTrue(Assert.java:121) ~[spring-core-5.3.27.jar:5.3.27]
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$ModifyingExecution.<init>(JpaQueryExecution.java:226) ~[spring-data-jpa-2.7.11.jar:2.7.11]
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.getExecution(AbstractJpaQuery.java:176) ~[spring-data-jpa-2.7.11.jar:2.7.11]
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:144) ~[spring-data-jpa-2.7.11.jar:2.7.11]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137) ~[spring-data-commons-2.7.11.jar:2.7.11]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121) ~[spring-data-commons-2.7.11.jar:2.7.11]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:160) ~[spring-data-commons-2.7.11.jar:2.7.11]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:139) ~[spring-data-commons-2.7.11.jar:2.7.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:81) ~[spring-data-commons-2.7.11.jar:2.7.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-5.3.27.jar:5.3.27]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388) ~[spring-tx-5.3.27.jar:5.3.27]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137) ~[spring-tx-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:145) ~[spring-data-jpa-2.7.11.jar:2.7.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:220) ~[spring-aop-5.3.27.jar:5.3.27]
+	at com.sun.proxy.$Proxy128.deleteByRiskScoreAndCounter(Unknown Source) ~[na:na]
+	at com.example.dynamic.service.CalculationServiceImpl.deleteScoreCap(CalculationServiceImpl.java:432) ~[classes/:na]
+	at com.example.dynamic.controllers.RiskController.deleteScoreCap(RiskController.java:142) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:931) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:561) ~[tomcat-embed-core-9.0.74.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[tomcat-embed-core-9.0.74.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2023-07-10 14:20:32.824  INFO 4548 --- [scheduling-1] c.example.dynamic.TaskSchedulerService   : Runnning......................
+2023-07-10 14:20:32.829  INFO 4548 --- [http-nio-9090-exec-9] c.e.d.service.CalculationServiceImpl     : Calculating risk scores for all companies...
+2023-07-10 14:20:32.835  INFO 4548 --- [http-nio-9090-exec-9] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: TCS
+2023-07-10 14:20:32.903  INFO 4548 --- [http-nio-9090-exec-9] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: TCS
+2023-07-10 14:20:32.908  INFO 4548 --- [http-nio-9090-exec-9] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: TCS
+2023-07-10 14:20:32.908  INFO 4548 --- [http-nio-9090-exec-9] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Google
+2023-07-10 14:20:32.972  INFO 4548 --- [http-nio-9090-exec-9] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Google
+2023-07-10 14:20:32.975  INFO 4548 --- [http-nio-9090-exec-9] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Google
+2023-07-10 14:20:32.975  INFO 4548 --- [http-nio-9090-exec-9] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Nagarro
+2023-07-10 14:20:33.040  INFO 4548 --- [http-nio-9090-exec-9] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Nagarro
+2023-07-10 14:20:33.044  INFO 4548 --- [http-nio-9090-exec-9] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Nagarro
+2023-07-10 14:20:33.044  INFO 4548 --- [http-nio-9090-exec-9] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Microsoft
+2023-07-10 14:20:33.105  INFO 4548 --- [http-nio-9090-exec-9] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Microsoft
+2023-07-10 14:20:33.109  INFO 4548 --- [http-nio-9090-exec-9] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Microsoft
+2023-07-10 14:20:33.110  INFO 4548 --- [http-nio-9090-exec-9] c.e.d.service.CalculationServiceImpl     : Risk scores calculated for all companies.
+2023-07-10 14:20:33.112  INFO 4548 --- [scheduling-1] c.example.dynamic.TaskSchedulerService   : GET request to my-endpoint, response code: 200
+2023-07-10 14:20:55.986 ERROR 4548 --- [http-nio-9090-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.InvalidDataAccessApiUsageException: Modifying queries can only use void or int/Integer as return type! Offending method: public abstract com.example.dynamic.models.RiskScoreCap com.example.dynamic.repositories.RiskScoreCapRepository.deleteByRiskScoreAndCounter(java.lang.String,int); nested exception is java.lang.IllegalArgumentException: Modifying queries can only use void or int/Integer as return type! Offending method: public abstract com.example.dynamic.models.RiskScoreCap com.example.dynamic.repositories.RiskScoreCapRepository.deleteByRiskScoreAndCounter(java.lang.String,int)] with root cause
+
+java.lang.IllegalArgumentException: Modifying queries can only use void or int/Integer as return type! Offending method: public abstract com.example.dynamic.models.RiskScoreCap com.example.dynamic.repositories.RiskScoreCapRepository.deleteByRiskScoreAndCounter(java.lang.String,int)
+	at org.springframework.util.Assert.isTrue(Assert.java:121) ~[spring-core-5.3.27.jar:5.3.27]
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$ModifyingExecution.<init>(JpaQueryExecution.java:226) ~[spring-data-jpa-2.7.11.jar:2.7.11]
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.getExecution(AbstractJpaQuery.java:176) ~[spring-data-jpa-2.7.11.jar:2.7.11]
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:144) ~[spring-data-jpa-2.7.11.jar:2.7.11]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137) ~[spring-data-commons-2.7.11.jar:2.7.11]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121) ~[spring-data-commons-2.7.11.jar:2.7.11]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:160) ~[spring-data-commons-2.7.11.jar:2.7.11]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:139) ~[spring-data-commons-2.7.11.jar:2.7.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:81) ~[spring-data-commons-2.7.11.jar:2.7.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-5.3.27.jar:5.3.27]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388) ~[spring-tx-5.3.27.jar:5.3.27]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137) ~[spring-tx-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:145) ~[spring-data-jpa-2.7.11.jar:2.7.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:220) ~[spring-aop-5.3.27.jar:5.3.27]
+	at com.sun.proxy.$Proxy128.deleteByRiskScoreAndCounter(Unknown Source) ~[na:na]
+	at com.example.dynamic.service.CalculationServiceImpl.deleteScoreCap(CalculationServiceImpl.java:432) ~[classes/:na]
+	at com.example.dynamic.controllers.RiskController.deleteScoreCap(RiskController.java:142) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:931) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:561) ~[tomcat-embed-core-9.0.74.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[tomcat-embed-core-9.0.74.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2023-07-10 14:21:22.280  INFO 21248 --- [main] com.example.dynamic.DynamicApplication   : Starting DynamicApplication using Java 11.0.1 on IN-94682J3 with PID 21248 (C:\Users\kushalupadhayay\Downloads\dynamic\QCalculator\target\classes started by kushalupadhayay in C:\Users\kushalupadhayay\Downloads\dynamic\QCalculator)
+2023-07-10 14:21:22.282  INFO 21248 --- [main] com.example.dynamic.DynamicApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-07-10 14:21:23.168  INFO 21248 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-10 14:21:23.244  INFO 21248 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 69 ms. Found 7 JPA repository interfaces.
+2023-07-10 14:21:24.013  INFO 21248 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2023-07-10 14:21:24.022  INFO 21248 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-10 14:21:24.022  INFO 21248 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-07-10 14:21:24.183  INFO 21248 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-10 14:21:24.183  INFO 21248 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1847 ms
+2023-07-10 14:21:24.354  INFO 21248 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-10 14:21:24.405  INFO 21248 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-07-10 14:21:24.554  INFO 21248 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-07-10 14:21:24.664  INFO 21248 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-10 14:21:24.991  INFO 21248 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-10 14:21:25.006  INFO 21248 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-07-10 14:21:25.791  INFO 21248 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-10 14:21:25.801  INFO 21248 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-10 14:21:26.433  WARN 21248 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-10 14:21:26.779  INFO 21248 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2023-07-10 14:21:26.786  INFO 21248 --- [scheduling-1] c.example.dynamic.TaskSchedulerService   : Runnning......................
+2023-07-10 14:21:26.790  INFO 21248 --- [main] com.example.dynamic.DynamicApplication   : Started DynamicApplication in 4.953 seconds (JVM running for 5.581)
+2023-07-10 14:21:26.853  INFO 21248 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-10 14:21:26.855  INFO 21248 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-10 14:21:26.855  INFO 21248 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-07-10 14:21:26.886  INFO 21248 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Calculating risk scores for all companies...
+2023-07-10 14:21:26.961  INFO 21248 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: TCS
+2023-07-10 14:21:27.389  INFO 21248 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: TCS
+2023-07-10 14:21:27.424  INFO 21248 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: TCS
+2023-07-10 14:21:27.424  INFO 21248 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Google
+2023-07-10 14:21:27.515  INFO 21248 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Google
+2023-07-10 14:21:27.519  INFO 21248 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Google
+2023-07-10 14:21:27.520  INFO 21248 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Nagarro
+2023-07-10 14:21:27.611  INFO 21248 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Nagarro
+2023-07-10 14:21:27.615  INFO 21248 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Nagarro
+2023-07-10 14:21:27.615  INFO 21248 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Microsoft
+2023-07-10 14:21:27.703  INFO 21248 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Microsoft
+2023-07-10 14:21:27.709  INFO 21248 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Microsoft
+2023-07-10 14:21:27.709  INFO 21248 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk scores calculated for all companies.
+2023-07-10 14:21:27.774  INFO 21248 --- [scheduling-1] c.example.dynamic.TaskSchedulerService   : GET request to my-endpoint, response code: 200
+2023-07-10 14:21:32.948 ERROR 21248 --- [http-nio-9090-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.InvalidDataAccessApiUsageException: Modifying queries can only use void or int/Integer as return type! Offending method: public abstract com.example.dynamic.models.RiskScoreCap com.example.dynamic.repositories.RiskScoreCapRepository.deleteByRiskScoreAndCounter(java.lang.String,int); nested exception is java.lang.IllegalArgumentException: Modifying queries can only use void or int/Integer as return type! Offending method: public abstract com.example.dynamic.models.RiskScoreCap com.example.dynamic.repositories.RiskScoreCapRepository.deleteByRiskScoreAndCounter(java.lang.String,int)] with root cause
+
+java.lang.IllegalArgumentException: Modifying queries can only use void or int/Integer as return type! Offending method: public abstract com.example.dynamic.models.RiskScoreCap com.example.dynamic.repositories.RiskScoreCapRepository.deleteByRiskScoreAndCounter(java.lang.String,int)
+	at org.springframework.util.Assert.isTrue(Assert.java:121) ~[spring-core-5.3.27.jar:5.3.27]
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$ModifyingExecution.<init>(JpaQueryExecution.java:226) ~[spring-data-jpa-2.7.11.jar:2.7.11]
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.getExecution(AbstractJpaQuery.java:176) ~[spring-data-jpa-2.7.11.jar:2.7.11]
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:144) ~[spring-data-jpa-2.7.11.jar:2.7.11]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137) ~[spring-data-commons-2.7.11.jar:2.7.11]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121) ~[spring-data-commons-2.7.11.jar:2.7.11]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:160) ~[spring-data-commons-2.7.11.jar:2.7.11]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:139) ~[spring-data-commons-2.7.11.jar:2.7.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:81) ~[spring-data-commons-2.7.11.jar:2.7.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-5.3.27.jar:5.3.27]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388) ~[spring-tx-5.3.27.jar:5.3.27]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137) ~[spring-tx-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:145) ~[spring-data-jpa-2.7.11.jar:2.7.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:220) ~[spring-aop-5.3.27.jar:5.3.27]
+	at com.sun.proxy.$Proxy128.deleteByRiskScoreAndCounter(Unknown Source) ~[na:na]
+	at com.example.dynamic.service.CalculationServiceImpl.deleteScoreCap(CalculationServiceImpl.java:432) ~[classes/:na]
+	at com.example.dynamic.controllers.RiskController.deleteScoreCap(RiskController.java:142) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:931) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:561) ~[tomcat-embed-core-9.0.74.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[tomcat-embed-core-9.0.74.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2023-07-10 14:25:17.839  INFO 11280 --- [main] com.example.dynamic.DynamicApplication   : Starting DynamicApplication using Java 11.0.1 on IN-94682J3 with PID 11280 (C:\Users\kushalupadhayay\Downloads\dynamic\QCalculator\target\classes started by kushalupadhayay in C:\Users\kushalupadhayay\Downloads\dynamic\QCalculator)
+2023-07-10 14:25:17.843  INFO 11280 --- [main] com.example.dynamic.DynamicApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-07-10 14:25:18.735  INFO 11280 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-10 14:25:18.820  INFO 11280 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 77 ms. Found 7 JPA repository interfaces.
+2023-07-10 14:25:19.656  INFO 11280 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2023-07-10 14:25:19.665  INFO 11280 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-10 14:25:19.666  INFO 11280 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-07-10 14:25:19.805  INFO 11280 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-10 14:25:19.806  INFO 11280 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1915 ms
+2023-07-10 14:25:19.993  INFO 11280 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-10 14:25:20.043  INFO 11280 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-07-10 14:25:20.178  INFO 11280 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-07-10 14:25:20.267  INFO 11280 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-10 14:25:20.624  INFO 11280 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-10 14:25:20.638  INFO 11280 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-07-10 14:25:21.405  INFO 11280 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-10 14:25:21.414  INFO 11280 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-10 14:25:22.079  WARN 11280 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-10 14:25:22.415  INFO 11280 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2023-07-10 14:25:22.422  INFO 11280 --- [scheduling-1] c.example.dynamic.TaskSchedulerService   : Runnning......................
+2023-07-10 14:25:22.425  INFO 11280 --- [main] com.example.dynamic.DynamicApplication   : Started DynamicApplication in 5.063 seconds (JVM running for 5.655)
+2023-07-10 14:25:22.485  INFO 11280 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-10 14:25:22.486  INFO 11280 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-10 14:25:22.487  INFO 11280 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-07-10 14:25:22.516  INFO 11280 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Calculating risk scores for all companies...
+2023-07-10 14:25:22.583  INFO 11280 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: TCS
+2023-07-10 14:25:23.101  INFO 11280 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: TCS
+2023-07-10 14:25:23.148  INFO 11280 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: TCS
+2023-07-10 14:25:23.148  INFO 11280 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Google
+2023-07-10 14:25:23.265  INFO 11280 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Google
+2023-07-10 14:25:23.272  INFO 11280 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Google
+2023-07-10 14:25:23.273  INFO 11280 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Nagarro
+2023-07-10 14:25:23.374  INFO 11280 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Nagarro
+2023-07-10 14:25:23.380  INFO 11280 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Nagarro
+2023-07-10 14:25:23.381  INFO 11280 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Microsoft
+2023-07-10 14:25:23.470  INFO 11280 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Microsoft
+2023-07-10 14:25:23.475  INFO 11280 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Microsoft
+2023-07-10 14:25:23.475  INFO 11280 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk scores calculated for all companies.
+2023-07-10 14:25:23.542  INFO 11280 --- [scheduling-1] c.example.dynamic.TaskSchedulerService   : GET request to my-endpoint, response code: 200
+2023-07-10 14:25:44.245  INFO 11280 --- [http-nio-9090-exec-4] c.e.d.service.CalculationServiceImpl     : Retrieving all risk score caps.
+2023-07-10 14:25:44.251  INFO 11280 --- [http-nio-9090-exec-4] c.e.d.service.CalculationServiceImpl     : Retrieved all risk score caps.
+2023-07-10 14:25:44.259  INFO 11280 --- [http-nio-9090-exec-5] c.e.d.service.CalculationServiceImpl     : Retrieving all risk score caps.
+2023-07-10 14:25:44.267  INFO 11280 --- [http-nio-9090-exec-5] c.e.d.service.CalculationServiceImpl     : Retrieved all risk score caps.
+2023-07-10 14:27:24.384  INFO 11280 --- [http-nio-9090-exec-9] c.e.d.service.CalculationServiceImpl     : Retrieving all risk score caps.
+2023-07-10 14:27:24.393  INFO 11280 --- [http-nio-9090-exec-9] c.e.d.service.CalculationServiceImpl     : Retrieved all risk score caps.
+2023-07-10 14:27:24.402  INFO 11280 --- [http-nio-9090-exec-10] c.e.d.service.CalculationServiceImpl     : Retrieving all risk score caps.
+2023-07-10 14:27:24.409  INFO 11280 --- [http-nio-9090-exec-10] c.e.d.service.CalculationServiceImpl     : Retrieved all risk score caps.
+2023-07-10 14:27:46.124  INFO 11280 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Retrieving all risk score caps.
+2023-07-10 14:27:46.134  INFO 11280 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Retrieved all risk score caps.
+2023-07-10 14:27:46.140  INFO 11280 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Retrieving all risk score caps.
+2023-07-10 14:27:46.142  INFO 11280 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Retrieved all risk score caps.
+2023-07-10 14:31:27.343  INFO 11280 --- [http-nio-9090-exec-7] c.e.d.service.CalculationServiceImpl     : Retrieving all risk score caps.
+2023-07-10 14:31:27.351  INFO 11280 --- [http-nio-9090-exec-7] c.e.d.service.CalculationServiceImpl     : Retrieved all risk score caps.
+2023-07-10 14:31:27.360  INFO 11280 --- [http-nio-9090-exec-8] c.e.d.service.CalculationServiceImpl     : Retrieving all risk score caps.
+2023-07-10 14:31:27.368  INFO 11280 --- [http-nio-9090-exec-8] c.e.d.service.CalculationServiceImpl     : Retrieved all risk score caps.
+2023-07-10 14:31:30.736  INFO 11280 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Retrieving all risk score caps.
+2023-07-10 14:31:30.744  INFO 11280 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Retrieved all risk score caps.
+2023-07-10 14:31:33.943  INFO 11280 --- [http-nio-9090-exec-4] c.e.d.service.CalculationServiceImpl     : Retrieving all risk score caps.
+2023-07-10 14:31:33.958  INFO 11280 --- [http-nio-9090-exec-4] c.e.d.service.CalculationServiceImpl     : Retrieved all risk score caps.
+2023-07-10 14:44:22.749  INFO 17852 --- [main] com.example.dynamic.DynamicApplication   : Starting DynamicApplication using Java 11.0.1 on IN-94682J3 with PID 17852 (C:\Users\kushalupadhayay\Downloads\dynamic\QCalculator\target\classes started by kushalupadhayay in C:\Users\kushalupadhayay\Downloads\dynamic\QCalculator)
+2023-07-10 14:44:22.758  INFO 17852 --- [main] com.example.dynamic.DynamicApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-07-10 14:44:23.520  INFO 17852 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-10 14:44:23.614  INFO 17852 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 84 ms. Found 7 JPA repository interfaces.
+2023-07-10 14:44:24.370  INFO 17852 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2023-07-10 14:44:24.386  INFO 17852 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-10 14:44:24.386  INFO 17852 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-07-10 14:44:24.498  INFO 17852 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-10 14:44:24.498  INFO 17852 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1701 ms
+2023-07-10 14:44:24.699  INFO 17852 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-10 14:44:24.745  INFO 17852 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-07-10 14:44:24.902  INFO 17852 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-07-10 14:44:24.983  INFO 17852 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-10 14:44:25.297  INFO 17852 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-10 14:44:25.305  INFO 17852 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-07-10 14:44:26.110  INFO 17852 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-10 14:44:26.126  INFO 17852 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-10 14:44:26.761  WARN 17852 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-10 14:44:27.131  INFO 17852 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2023-07-10 14:44:27.135  INFO 17852 --- [main] com.example.dynamic.DynamicApplication   : Started DynamicApplication in 4.791 seconds (JVM running for 5.386)
+2023-07-10 14:46:52.727  INFO 17852 --- [http-nio-9090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-10 14:46:52.728  INFO 17852 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-10 14:46:52.729  INFO 17852 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-07-10 14:46:52.777  INFO 17852 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Retrieving all company data.
+2023-07-10 14:46:52.861  INFO 17852 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Retrieved all company data successfully.
+2023-07-10 14:46:52.925  INFO 17852 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Retrieving all company data.
+2023-07-10 14:46:52.941  INFO 17852 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Retrieved all company data successfully.
+2023-07-10 14:46:58.474  INFO 17852 --- [http-nio-9090-exec-3] c.e.d.service.CalculationServiceImpl     : Retrieving all companies.
+2023-07-10 14:46:58.478  INFO 17852 --- [http-nio-9090-exec-3] c.e.d.service.CalculationServiceImpl     : Retrieved all companies successfully.
+2023-07-10 14:46:58.502  INFO 17852 --- [http-nio-9090-exec-4] c.e.d.service.CalculationServiceImpl     : Retrieving all companies.
+2023-07-10 14:46:58.502  INFO 17852 --- [http-nio-9090-exec-4] c.e.d.service.CalculationServiceImpl     : Retrieved all companies successfully.
+2023-07-10 14:47:37.974  INFO 18256 --- [main] com.example.dynamic.DynamicApplication   : Starting DynamicApplication using Java 11.0.1 on IN-94682J3 with PID 18256 (C:\Users\kushalupadhayay\Downloads\dynamic\QCalculator\target\classes started by kushalupadhayay in C:\Users\kushalupadhayay\Downloads\dynamic\QCalculator)
+2023-07-10 14:47:37.974  INFO 18256 --- [main] com.example.dynamic.DynamicApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-07-10 14:47:38.678  INFO 18256 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-10 14:47:38.765  INFO 18256 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 77 ms. Found 7 JPA repository interfaces.
+2023-07-10 14:47:39.611  INFO 18256 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2023-07-10 14:47:39.611  INFO 18256 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-10 14:47:39.626  INFO 18256 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-07-10 14:47:39.766  INFO 18256 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-10 14:47:39.770  INFO 18256 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1747 ms
+2023-07-10 14:47:39.956  INFO 18256 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-10 14:47:40.008  INFO 18256 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-07-10 14:47:40.177  INFO 18256 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-07-10 14:47:40.277  INFO 18256 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-10 14:47:40.561  INFO 18256 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-10 14:47:40.562  INFO 18256 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-07-10 14:47:41.283  INFO 18256 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-10 14:47:41.294  INFO 18256 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-10 14:47:41.942  WARN 18256 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-10 14:47:42.294  INFO 18256 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2023-07-10 14:47:42.297  INFO 18256 --- [scheduling-1] c.example.dynamic.TaskSchedulerService   : Runnning......................
+2023-07-10 14:47:42.308  INFO 18256 --- [main] com.example.dynamic.DynamicApplication   : Started DynamicApplication in 4.74 seconds (JVM running for 5.119)
+2023-07-10 14:47:42.385  INFO 18256 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-10 14:47:42.385  INFO 18256 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-10 14:47:42.385  INFO 18256 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-07-10 14:47:42.412  INFO 18256 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Calculating risk scores for all companies...
+2023-07-10 14:47:42.498  INFO 18256 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: TCS
+2023-07-10 14:47:42.964  INFO 18256 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: TCS
+2023-07-10 14:47:42.995  INFO 18256 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: TCS
+2023-07-10 14:47:42.995  INFO 18256 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Google
+2023-07-10 14:47:43.101  INFO 18256 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Google
+2023-07-10 14:47:43.101  INFO 18256 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Google
+2023-07-10 14:47:43.101  INFO 18256 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Nagarro
+2023-07-10 14:47:43.200  INFO 18256 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Nagarro
+2023-07-10 14:47:43.200  INFO 18256 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Nagarro
+2023-07-10 14:47:43.200  INFO 18256 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Microsoft
+2023-07-10 14:47:43.286  INFO 18256 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Microsoft
+2023-07-10 14:47:43.288  INFO 18256 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Microsoft
+2023-07-10 14:47:43.288  INFO 18256 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk scores calculated for all companies.
+2023-07-10 14:47:43.364  INFO 18256 --- [scheduling-1] c.example.dynamic.TaskSchedulerService   : GET request to my-endpoint, response code: 200
+2023-07-10 14:47:52.934  INFO 18256 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Retrieving all companies.
+2023-07-10 14:47:52.942  INFO 18256 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Retrieved all companies successfully.
+2023-07-10 14:47:52.957  INFO 18256 --- [http-nio-9090-exec-3] c.e.d.service.CalculationServiceImpl     : Retrieving all companies.
+2023-07-10 14:47:52.961  INFO 18256 --- [http-nio-9090-exec-3] c.e.d.service.CalculationServiceImpl     : Retrieved all companies successfully.
+2023-07-10 14:48:12.045  INFO 18256 --- [http-nio-9090-exec-4] c.e.d.service.CalculationServiceImpl     : Retrieving all company data.
+2023-07-10 14:48:12.123  INFO 18256 --- [http-nio-9090-exec-4] c.e.d.service.CalculationServiceImpl     : Retrieved all company data successfully.
+2023-07-10 14:48:12.123  INFO 18256 --- [http-nio-9090-exec-5] c.e.d.service.CalculationServiceImpl     : Retrieving all company data.
+2023-07-10 14:48:12.145  INFO 18256 --- [http-nio-9090-exec-5] c.e.d.service.CalculationServiceImpl     : Retrieved all company data successfully.
+2023-07-10 14:48:15.777  INFO 18256 --- [http-nio-9090-exec-6] c.e.d.service.CalculationServiceImpl     : Retrieving data for company: Google
+2023-07-10 14:48:15.777  INFO 18256 --- [http-nio-9090-exec-7] c.e.d.service.CalculationServiceImpl     : Retrieving data for company: Google
+2023-07-10 14:48:15.816  INFO 18256 --- [http-nio-9090-exec-7] c.e.d.service.CalculationServiceImpl     : Retrieved data for company: Google
+2023-07-10 14:48:15.816  INFO 18256 --- [http-nio-9090-exec-6] c.e.d.service.CalculationServiceImpl     : Retrieved data for company: Google
+2023-07-10 14:48:20.236  INFO 18256 --- [http-nio-9090-exec-8] c.e.d.service.CalculationServiceImpl     : Retrieving data for company: Google
+2023-07-10 14:48:20.241  INFO 18256 --- [http-nio-9090-exec-8] c.e.d.service.CalculationServiceImpl     : Retrieved data for company: Google
+2023-07-10 14:48:20.250  INFO 18256 --- [http-nio-9090-exec-9] c.e.d.service.CalculationServiceImpl     : Retrieving data for company: Google
+2023-07-10 14:48:20.259  INFO 18256 --- [http-nio-9090-exec-9] c.e.d.service.CalculationServiceImpl     : Retrieved data for company: Google
+2023-07-10 14:48:40.342  INFO 18256 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Updating data for company: Google
+2023-07-10 14:48:40.458  INFO 18256 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Updated data for company:Google
+2023-07-10 14:48:40.493  INFO 18256 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Retrieving all company data.
+2023-07-10 14:48:40.516  INFO 18256 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Retrieved all company data successfully.
+2023-07-10 14:48:40.524  INFO 18256 --- [http-nio-9090-exec-3] c.e.d.service.CalculationServiceImpl     : Retrieving all company data.
+2023-07-10 14:48:40.541  INFO 18256 --- [http-nio-9090-exec-3] c.e.d.service.CalculationServiceImpl     : Retrieved all company data successfully.
+2023-07-10 14:48:45.599  INFO 18256 --- [http-nio-9090-exec-4] c.e.d.service.CalculationServiceImpl     : Calculating risk scores for all companies...
+2023-07-10 14:48:45.606  INFO 18256 --- [http-nio-9090-exec-4] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: TCS
+2023-07-10 14:48:45.785  INFO 18256 --- [http-nio-9090-exec-4] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: TCS
+2023-07-10 14:48:45.789  INFO 18256 --- [http-nio-9090-exec-4] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: TCS
+2023-07-10 14:48:45.789  INFO 18256 --- [http-nio-9090-exec-4] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Google
+2023-07-10 14:48:45.955  INFO 18256 --- [http-nio-9090-exec-4] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Google
+2023-07-10 14:48:45.972  INFO 18256 --- [http-nio-9090-exec-4] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Google
+2023-07-10 14:48:45.973  INFO 18256 --- [http-nio-9090-exec-4] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Nagarro
+2023-07-10 14:48:46.123  INFO 18256 --- [http-nio-9090-exec-4] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Nagarro
+2023-07-10 14:48:46.139  INFO 18256 --- [http-nio-9090-exec-4] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Nagarro
+2023-07-10 14:48:46.139  INFO 18256 --- [http-nio-9090-exec-4] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Microsoft
+2023-07-10 14:48:46.293  INFO 18256 --- [http-nio-9090-exec-4] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Microsoft
+2023-07-10 14:48:46.302  INFO 18256 --- [http-nio-9090-exec-4] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Microsoft
+2023-07-10 14:48:46.302  INFO 18256 --- [http-nio-9090-exec-4] c.e.d.service.CalculationServiceImpl     : Risk scores calculated for all companies.
+2023-07-10 14:48:46.329  INFO 18256 --- [http-nio-9090-exec-5] c.e.d.service.CalculationServiceImpl     : Retrieving all companies.
+2023-07-10 14:48:46.334  INFO 18256 --- [http-nio-9090-exec-5] c.e.d.service.CalculationServiceImpl     : Retrieved all companies successfully.
+2023-07-10 14:48:46.351  INFO 18256 --- [http-nio-9090-exec-7] c.e.d.service.CalculationServiceImpl     : Retrieving all companies.
+2023-07-10 14:48:46.358  INFO 18256 --- [http-nio-9090-exec-7] c.e.d.service.CalculationServiceImpl     : Retrieved all companies successfully.
+2023-07-10 14:48:57.869  INFO 18256 --- [http-nio-9090-exec-6] c.e.d.service.CalculationServiceImpl     : Retrieving output for company: Google
+2023-07-10 14:48:57.880  INFO 18256 --- [http-nio-9090-exec-6] c.e.d.service.CalculationServiceImpl     : Retrieved output for company: Google
+2023-07-10 14:49:04.607  INFO 18256 --- [http-nio-9090-exec-8] c.e.d.service.CalculationServiceImpl     : Retrieving all risk calculation formulas.
+2023-07-10 14:49:04.610  INFO 18256 --- [http-nio-9090-exec-8] c.e.d.service.CalculationServiceImpl     : Retrieved all risk calculation formulas.
+2023-07-10 14:49:04.623  INFO 18256 --- [http-nio-9090-exec-8] c.e.d.service.CalculationServiceImpl     : Retrieving all risk calculation formulas.
+2023-07-10 14:49:04.623  INFO 18256 --- [http-nio-9090-exec-8] c.e.d.service.CalculationServiceImpl     : Retrieved all risk calculation formulas.
+2023-07-10 14:49:06.920  INFO 18256 --- [http-nio-9090-exec-10] c.e.d.service.CalculationServiceImpl     : Retrieving data for formula: info_sec_weight
+2023-07-10 14:49:06.920  INFO 18256 --- [http-nio-9090-exec-10] c.e.d.service.CalculationServiceImpl     : Retrieved data for formula: info_sec_weight
+2023-07-10 14:49:06.932  INFO 18256 --- [http-nio-9090-exec-10] c.e.d.service.CalculationServiceImpl     : Retrieving data for formula: info_sec_weight
+2023-07-10 14:49:06.932  INFO 18256 --- [http-nio-9090-exec-10] c.e.d.service.CalculationServiceImpl     : Retrieved data for formula: info_sec_weight
+2023-07-10 14:56:02.313  INFO 18256 --- [scheduling-1] c.example.dynamic.TaskSchedulerService   : Runnning......................
+2023-07-10 14:56:02.317  INFO 18256 --- [http-nio-9090-exec-7] c.e.d.service.CalculationServiceImpl     : Calculating risk scores for all companies...
+2023-07-10 14:56:02.331  INFO 18256 --- [http-nio-9090-exec-7] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: TCS
+2023-07-10 14:56:02.487  INFO 18256 --- [http-nio-9090-exec-7] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: TCS
+2023-07-10 14:56:02.487  INFO 18256 --- [http-nio-9090-exec-7] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: TCS
+2023-07-10 14:56:02.487  INFO 18256 --- [http-nio-9090-exec-7] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Google
+2023-07-10 14:56:02.649  INFO 18256 --- [http-nio-9090-exec-7] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Google
+2023-07-10 14:56:02.658  INFO 18256 --- [http-nio-9090-exec-7] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Google
+2023-07-10 14:56:02.659  INFO 18256 --- [http-nio-9090-exec-7] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Nagarro
+2023-07-10 14:56:02.810  INFO 18256 --- [http-nio-9090-exec-7] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Nagarro
+2023-07-10 14:56:02.818  INFO 18256 --- [http-nio-9090-exec-7] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Nagarro
+2023-07-10 14:56:02.819  INFO 18256 --- [http-nio-9090-exec-7] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Microsoft
+2023-07-10 14:56:02.962  INFO 18256 --- [http-nio-9090-exec-7] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Microsoft
+2023-07-10 14:56:02.963  INFO 18256 --- [http-nio-9090-exec-7] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Microsoft
+2023-07-10 14:56:02.963  INFO 18256 --- [http-nio-9090-exec-7] c.e.d.service.CalculationServiceImpl     : Risk scores calculated for all companies.
+2023-07-10 14:56:02.976  INFO 18256 --- [scheduling-1] c.example.dynamic.TaskSchedulerService   : GET request to my-endpoint, response code: 200
+2023-07-10 15:04:22.316  INFO 18256 --- [scheduling-1] c.example.dynamic.TaskSchedulerService   : Runnning......................
+2023-07-10 15:04:22.320  INFO 18256 --- [http-nio-9090-exec-9] c.e.d.service.CalculationServiceImpl     : Calculating risk scores for all companies...
+2023-07-10 15:04:22.323  INFO 18256 --- [http-nio-9090-exec-9] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: TCS
+2023-07-10 15:04:22.471  INFO 18256 --- [http-nio-9090-exec-9] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: TCS
+2023-07-10 15:04:22.485  INFO 18256 --- [http-nio-9090-exec-9] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: TCS
+2023-07-10 15:04:22.485  INFO 18256 --- [http-nio-9090-exec-9] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Google
+2023-07-10 15:04:22.631  INFO 18256 --- [http-nio-9090-exec-9] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Google
+2023-07-10 15:04:22.633  INFO 18256 --- [http-nio-9090-exec-9] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Google
+2023-07-10 15:04:22.633  INFO 18256 --- [http-nio-9090-exec-9] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Nagarro
+2023-07-10 15:04:22.767  INFO 18256 --- [http-nio-9090-exec-9] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Nagarro
+2023-07-10 15:04:22.785  INFO 18256 --- [http-nio-9090-exec-9] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Nagarro
+2023-07-10 15:04:22.788  INFO 18256 --- [http-nio-9090-exec-9] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Microsoft
+2023-07-10 15:04:22.918  INFO 18256 --- [http-nio-9090-exec-9] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Microsoft
+2023-07-10 15:04:22.918  INFO 18256 --- [http-nio-9090-exec-9] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Microsoft
+2023-07-10 15:04:22.918  INFO 18256 --- [http-nio-9090-exec-9] c.e.d.service.CalculationServiceImpl     : Risk scores calculated for all companies.
+2023-07-10 15:04:22.934  INFO 18256 --- [scheduling-1] c.example.dynamic.TaskSchedulerService   : GET request to my-endpoint, response code: 200
+2023-07-10 15:12:42.306  INFO 18256 --- [scheduling-1] c.example.dynamic.TaskSchedulerService   : Runnning......................
+2023-07-10 15:12:42.306  INFO 18256 --- [http-nio-9090-exec-8] c.e.d.service.CalculationServiceImpl     : Calculating risk scores for all companies...
+2023-07-10 15:12:42.306  INFO 18256 --- [http-nio-9090-exec-8] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: TCS
+2023-07-10 15:12:42.452  INFO 18256 --- [http-nio-9090-exec-8] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: TCS
+2023-07-10 15:12:42.452  INFO 18256 --- [http-nio-9090-exec-8] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: TCS
+2023-07-10 15:12:42.452  INFO 18256 --- [http-nio-9090-exec-8] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Google
+2023-07-10 15:12:42.593  INFO 18256 --- [http-nio-9090-exec-8] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Google
+2023-07-10 15:12:42.599  INFO 18256 --- [http-nio-9090-exec-8] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Google
+2023-07-10 15:12:42.599  INFO 18256 --- [http-nio-9090-exec-8] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Nagarro
+2023-07-10 15:12:42.728  INFO 18256 --- [http-nio-9090-exec-8] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Nagarro
+2023-07-10 15:12:42.728  INFO 18256 --- [http-nio-9090-exec-8] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Nagarro
+2023-07-10 15:12:42.728  INFO 18256 --- [http-nio-9090-exec-8] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Microsoft
+2023-07-10 15:12:42.863  INFO 18256 --- [http-nio-9090-exec-8] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Microsoft
+2023-07-10 15:12:42.870  INFO 18256 --- [http-nio-9090-exec-8] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Microsoft
+2023-07-10 15:12:42.870  INFO 18256 --- [http-nio-9090-exec-8] c.e.d.service.CalculationServiceImpl     : Risk scores calculated for all companies.
+2023-07-10 15:12:42.899  INFO 18256 --- [scheduling-1] c.example.dynamic.TaskSchedulerService   : GET request to my-endpoint, response code: 200
+2023-07-10 15:21:02.310  INFO 18256 --- [scheduling-1] c.example.dynamic.TaskSchedulerService   : Runnning......................
+2023-07-10 15:21:02.314  INFO 18256 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Calculating risk scores for all companies...
+2023-07-10 15:21:02.314  INFO 18256 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: TCS
+2023-07-10 15:21:02.460  INFO 18256 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: TCS
+2023-07-10 15:21:02.465  INFO 18256 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: TCS
+2023-07-10 15:21:02.465  INFO 18256 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Google
+2023-07-10 15:21:02.591  INFO 18256 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Google
+2023-07-10 15:21:02.613  INFO 18256 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Google
+2023-07-10 15:21:02.613  INFO 18256 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Nagarro
+2023-07-10 15:21:02.727  INFO 18256 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Nagarro
+2023-07-10 15:21:02.746  INFO 18256 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Nagarro
+2023-07-10 15:21:02.747  INFO 18256 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Microsoft
+2023-07-10 15:21:02.867  INFO 18256 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Microsoft
+2023-07-10 15:21:02.876  INFO 18256 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Microsoft
+2023-07-10 15:21:02.876  INFO 18256 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk scores calculated for all companies.
+2023-07-10 15:21:02.883  INFO 18256 --- [scheduling-1] c.example.dynamic.TaskSchedulerService   : GET request to my-endpoint, response code: 200
+2023-07-10 15:29:22.310  INFO 18256 --- [scheduling-1] c.example.dynamic.TaskSchedulerService   : Runnning......................
+2023-07-10 15:29:22.311  INFO 18256 --- [http-nio-9090-exec-10] c.e.d.service.CalculationServiceImpl     : Calculating risk scores for all companies...
+2023-07-10 15:29:22.321  INFO 18256 --- [http-nio-9090-exec-10] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: TCS
+2023-07-10 15:29:22.436  INFO 18256 --- [http-nio-9090-exec-10] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: TCS
+2023-07-10 15:29:22.453  INFO 18256 --- [http-nio-9090-exec-10] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: TCS
+2023-07-10 15:29:22.453  INFO 18256 --- [http-nio-9090-exec-10] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Google
+2023-07-10 15:29:22.588  INFO 18256 --- [http-nio-9090-exec-10] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Google
+2023-07-10 15:29:22.588  INFO 18256 --- [http-nio-9090-exec-10] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Google
+2023-07-10 15:29:22.588  INFO 18256 --- [http-nio-9090-exec-10] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Nagarro
+2023-07-10 15:29:22.724  INFO 18256 --- [http-nio-9090-exec-10] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Nagarro
+2023-07-10 15:29:22.724  INFO 18256 --- [http-nio-9090-exec-10] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Nagarro
+2023-07-10 15:29:22.734  INFO 18256 --- [http-nio-9090-exec-10] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Microsoft
+2023-07-10 15:29:22.857  INFO 18256 --- [http-nio-9090-exec-10] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Microsoft
+2023-07-10 15:29:22.857  INFO 18256 --- [http-nio-9090-exec-10] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Microsoft
+2023-07-10 15:29:22.857  INFO 18256 --- [http-nio-9090-exec-10] c.e.d.service.CalculationServiceImpl     : Risk scores calculated for all companies.
+2023-07-10 15:29:22.869  INFO 18256 --- [scheduling-1] c.example.dynamic.TaskSchedulerService   : GET request to my-endpoint, response code: 200
+2023-07-10 15:37:42.307  INFO 18256 --- [scheduling-1] c.example.dynamic.TaskSchedulerService   : Runnning......................
+2023-07-10 15:37:42.309  INFO 18256 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Calculating risk scores for all companies...
+2023-07-10 15:37:42.309  INFO 18256 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: TCS
+2023-07-10 15:37:42.445  INFO 18256 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: TCS
+2023-07-10 15:37:42.445  INFO 18256 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: TCS
+2023-07-10 15:37:42.445  INFO 18256 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Google
+2023-07-10 15:37:42.562  INFO 18256 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Google
+2023-07-10 15:37:42.580  INFO 18256 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Google
+2023-07-10 15:37:42.580  INFO 18256 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Nagarro
+2023-07-10 15:37:42.703  INFO 18256 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Nagarro
+2023-07-10 15:37:42.703  INFO 18256 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Nagarro
+2023-07-10 15:37:42.716  INFO 18256 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Microsoft
+2023-07-10 15:37:42.830  INFO 18256 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Microsoft
+2023-07-10 15:37:42.830  INFO 18256 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Microsoft
+2023-07-10 15:37:42.830  INFO 18256 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Risk scores calculated for all companies.
+2023-07-10 15:37:42.846  INFO 18256 --- [scheduling-1] c.example.dynamic.TaskSchedulerService   : GET request to my-endpoint, response code: 200
+2023-07-10 15:46:02.299  INFO 18256 --- [scheduling-1] c.example.dynamic.TaskSchedulerService   : Runnning......................
+2023-07-10 15:46:02.303  INFO 18256 --- [http-nio-9090-exec-3] c.e.d.service.CalculationServiceImpl     : Calculating risk scores for all companies...
+2023-07-10 15:46:02.306  INFO 18256 --- [http-nio-9090-exec-3] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: TCS
+2023-07-10 15:46:02.434  INFO 18256 --- [http-nio-9090-exec-3] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: TCS
+2023-07-10 15:46:02.439  INFO 18256 --- [http-nio-9090-exec-3] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: TCS
+2023-07-10 15:46:02.439  INFO 18256 --- [http-nio-9090-exec-3] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Google
+2023-07-10 15:46:02.558  INFO 18256 --- [http-nio-9090-exec-3] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Google
+2023-07-10 15:46:02.558  INFO 18256 --- [http-nio-9090-exec-3] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Google
+2023-07-10 15:46:02.558  INFO 18256 --- [http-nio-9090-exec-3] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Nagarro
+2023-07-10 15:46:02.749  INFO 18256 --- [http-nio-9090-exec-3] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Nagarro
+2023-07-10 15:46:02.749  INFO 18256 --- [http-nio-9090-exec-3] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Nagarro
+2023-07-10 15:46:02.749  INFO 18256 --- [http-nio-9090-exec-3] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Microsoft
+2023-07-10 15:46:02.876  INFO 18256 --- [http-nio-9090-exec-3] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Microsoft
+2023-07-10 15:46:02.892  INFO 18256 --- [http-nio-9090-exec-3] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Microsoft
+2023-07-10 15:46:02.892  INFO 18256 --- [http-nio-9090-exec-3] c.e.d.service.CalculationServiceImpl     : Risk scores calculated for all companies.
+2023-07-10 15:46:02.892  INFO 18256 --- [scheduling-1] c.example.dynamic.TaskSchedulerService   : GET request to my-endpoint, response code: 200
+2023-07-10 15:54:22.300  INFO 18256 --- [scheduling-1] c.example.dynamic.TaskSchedulerService   : Runnning......................
+2023-07-10 15:54:22.304  INFO 18256 --- [http-nio-9090-exec-4] c.e.d.service.CalculationServiceImpl     : Calculating risk scores for all companies...
+2023-07-10 15:54:22.304  INFO 18256 --- [http-nio-9090-exec-4] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: TCS
+2023-07-10 15:54:22.435  INFO 18256 --- [http-nio-9090-exec-4] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: TCS
+2023-07-10 15:54:22.440  INFO 18256 --- [http-nio-9090-exec-4] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: TCS
+2023-07-10 15:54:22.440  INFO 18256 --- [http-nio-9090-exec-4] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Google
+2023-07-10 15:54:22.558  INFO 18256 --- [http-nio-9090-exec-4] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Google
+2023-07-10 15:54:22.564  INFO 18256 --- [http-nio-9090-exec-4] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Google
+2023-07-10 15:54:22.564  INFO 18256 --- [http-nio-9090-exec-4] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Nagarro
+2023-07-10 15:54:22.671  INFO 18256 --- [http-nio-9090-exec-4] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Nagarro
+2023-07-10 15:54:22.671  INFO 18256 --- [http-nio-9090-exec-4] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Nagarro
+2023-07-10 15:54:22.671  INFO 18256 --- [http-nio-9090-exec-4] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Microsoft
+2023-07-10 15:54:22.798  INFO 18256 --- [http-nio-9090-exec-4] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Microsoft
+2023-07-10 15:54:22.804  INFO 18256 --- [http-nio-9090-exec-4] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Microsoft
+2023-07-10 15:54:22.804  INFO 18256 --- [http-nio-9090-exec-4] c.e.d.service.CalculationServiceImpl     : Risk scores calculated for all companies.
+2023-07-10 15:54:22.804  INFO 18256 --- [scheduling-1] c.example.dynamic.TaskSchedulerService   : GET request to my-endpoint, response code: 200
+2023-07-10 16:02:42.307  INFO 18256 --- [scheduling-1] c.example.dynamic.TaskSchedulerService   : Runnning......................
+2023-07-10 16:02:42.308  INFO 18256 --- [http-nio-9090-exec-5] c.e.d.service.CalculationServiceImpl     : Calculating risk scores for all companies...
+2023-07-10 16:02:42.317  INFO 18256 --- [http-nio-9090-exec-5] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: TCS
+2023-07-10 16:02:42.432  INFO 18256 --- [http-nio-9090-exec-5] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: TCS
+2023-07-10 16:02:42.432  INFO 18256 --- [http-nio-9090-exec-5] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: TCS
+2023-07-10 16:02:42.432  INFO 18256 --- [http-nio-9090-exec-5] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Google
+2023-07-10 16:02:42.532  INFO 18256 --- [http-nio-9090-exec-5] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Google
+2023-07-10 16:02:42.551  INFO 18256 --- [http-nio-9090-exec-5] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Google
+2023-07-10 16:02:42.551  INFO 18256 --- [http-nio-9090-exec-5] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Nagarro
+2023-07-10 16:02:42.683  INFO 18256 --- [http-nio-9090-exec-5] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Nagarro
+2023-07-10 16:02:42.689  INFO 18256 --- [http-nio-9090-exec-5] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Nagarro
+2023-07-10 16:02:42.690  INFO 18256 --- [http-nio-9090-exec-5] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Microsoft
+2023-07-10 16:02:42.805  INFO 18256 --- [http-nio-9090-exec-5] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Microsoft
+2023-07-10 16:02:42.805  INFO 18256 --- [http-nio-9090-exec-5] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Microsoft
+2023-07-10 16:02:42.805  INFO 18256 --- [http-nio-9090-exec-5] c.e.d.service.CalculationServiceImpl     : Risk scores calculated for all companies.
+2023-07-10 16:02:42.805  INFO 18256 --- [scheduling-1] c.example.dynamic.TaskSchedulerService   : GET request to my-endpoint, response code: 200
+2023-07-10 16:11:02.303  INFO 18256 --- [scheduling-1] c.example.dynamic.TaskSchedulerService   : Runnning......................
+2023-07-10 16:11:02.307  INFO 18256 --- [http-nio-9090-exec-7] c.e.d.service.CalculationServiceImpl     : Calculating risk scores for all companies...
+2023-07-10 16:11:02.310  INFO 18256 --- [http-nio-9090-exec-7] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: TCS
+2023-07-10 16:11:02.424  INFO 18256 --- [http-nio-9090-exec-7] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: TCS
+2023-07-10 16:11:02.424  INFO 18256 --- [http-nio-9090-exec-7] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: TCS
+2023-07-10 16:11:02.424  INFO 18256 --- [http-nio-9090-exec-7] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Google
+2023-07-10 16:11:02.546  INFO 18256 --- [http-nio-9090-exec-7] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Google
+2023-07-10 16:11:02.553  INFO 18256 --- [http-nio-9090-exec-7] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Google
+2023-07-10 16:11:02.553  INFO 18256 --- [http-nio-9090-exec-7] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Nagarro
+2023-07-10 16:11:02.656  INFO 18256 --- [http-nio-9090-exec-7] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Nagarro
+2023-07-10 16:11:02.656  INFO 18256 --- [http-nio-9090-exec-7] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Nagarro
+2023-07-10 16:11:02.656  INFO 18256 --- [http-nio-9090-exec-7] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Microsoft
+2023-07-10 16:11:02.767  INFO 18256 --- [http-nio-9090-exec-7] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Microsoft
+2023-07-10 16:11:02.785  INFO 18256 --- [http-nio-9090-exec-7] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Microsoft
+2023-07-10 16:11:02.785  INFO 18256 --- [http-nio-9090-exec-7] c.e.d.service.CalculationServiceImpl     : Risk scores calculated for all companies.
+2023-07-10 16:11:02.791  INFO 18256 --- [scheduling-1] c.example.dynamic.TaskSchedulerService   : GET request to my-endpoint, response code: 200
+2023-07-10 16:19:22.291  INFO 18256 --- [scheduling-1] c.example.dynamic.TaskSchedulerService   : Runnning......................
+2023-07-10 16:19:22.292  INFO 18256 --- [http-nio-9090-exec-6] c.e.d.service.CalculationServiceImpl     : Calculating risk scores for all companies...
+2023-07-10 16:19:22.297  INFO 18256 --- [http-nio-9090-exec-6] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: TCS
+2023-07-10 16:19:22.414  INFO 18256 --- [http-nio-9090-exec-6] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: TCS
+2023-07-10 16:19:22.425  INFO 18256 --- [http-nio-9090-exec-6] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: TCS
+2023-07-10 16:19:22.425  INFO 18256 --- [http-nio-9090-exec-6] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Google
+2023-07-10 16:19:22.531  INFO 18256 --- [http-nio-9090-exec-6] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Google
+2023-07-10 16:19:22.531  INFO 18256 --- [http-nio-9090-exec-6] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Google
+2023-07-10 16:19:22.531  INFO 18256 --- [http-nio-9090-exec-6] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Nagarro
+2023-07-10 16:19:22.654  INFO 18256 --- [http-nio-9090-exec-6] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Nagarro
+2023-07-10 16:19:22.657  INFO 18256 --- [http-nio-9090-exec-6] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Nagarro
+2023-07-10 16:19:22.657  INFO 18256 --- [http-nio-9090-exec-6] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Microsoft
+2023-07-10 16:19:22.771  INFO 18256 --- [http-nio-9090-exec-6] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Microsoft
+2023-07-10 16:19:22.773  INFO 18256 --- [http-nio-9090-exec-6] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Microsoft
+2023-07-10 16:19:22.773  INFO 18256 --- [http-nio-9090-exec-6] c.e.d.service.CalculationServiceImpl     : Risk scores calculated for all companies.
+2023-07-10 16:19:22.783  INFO 18256 --- [scheduling-1] c.example.dynamic.TaskSchedulerService   : GET request to my-endpoint, response code: 200
+2023-07-10 16:44:41.122  INFO 15068 --- [main] com.example.dynamic.DynamicApplication   : Starting DynamicApplication using Java 11.0.1 on IN-94682J3 with PID 15068 (C:\Users\kushalupadhayay\Downloads\dynamic\QCalculator\target\classes started by kushalupadhayay in C:\Users\kushalupadhayay\Downloads\dynamic\QCalculator)
+2023-07-10 16:44:41.122  INFO 15068 --- [main] com.example.dynamic.DynamicApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-07-10 16:44:41.870  INFO 15068 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-10 16:44:41.942  INFO 15068 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65 ms. Found 7 JPA repository interfaces.
+2023-07-10 16:44:42.649  INFO 15068 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2023-07-10 16:44:42.661  INFO 15068 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-10 16:44:42.663  INFO 15068 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-07-10 16:44:42.827  INFO 15068 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-10 16:44:42.827  INFO 15068 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1650 ms
+2023-07-10 16:44:42.991  INFO 15068 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-10 16:44:43.038  INFO 15068 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-07-10 16:44:43.170  INFO 15068 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-07-10 16:44:43.271  INFO 15068 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-10 16:44:43.562  INFO 15068 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-10 16:44:43.582  INFO 15068 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-07-10 16:44:44.214  INFO 15068 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-10 16:44:44.230  INFO 15068 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-10 16:44:44.838  WARN 15068 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-10 16:44:45.173  INFO 15068 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2023-07-10 16:44:45.180  INFO 15068 --- [scheduling-1] c.example.dynamic.TaskSchedulerService   : Runnning......................
+2023-07-10 16:44:45.185  INFO 15068 --- [main] com.example.dynamic.DynamicApplication   : Started DynamicApplication in 4.421 seconds (JVM running for 4.798)
+2023-07-10 16:44:45.250  INFO 15068 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-10 16:44:45.250  INFO 15068 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-10 16:44:45.251  INFO 15068 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-07-10 16:44:45.281  INFO 15068 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Calculating risk scores for all companies...
+2023-07-10 16:44:45.338  INFO 15068 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: TCS
+2023-07-10 16:44:45.763  INFO 15068 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: TCS
+2023-07-10 16:44:45.791  INFO 15068 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: TCS
+2023-07-10 16:44:45.791  INFO 15068 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Google
+2023-07-10 16:44:45.870  INFO 15068 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Google
+2023-07-10 16:44:45.870  INFO 15068 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Google
+2023-07-10 16:44:45.870  INFO 15068 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Nagarro
+2023-07-10 16:44:45.944  INFO 15068 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Nagarro
+2023-07-10 16:44:45.944  INFO 15068 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Nagarro
+2023-07-10 16:44:45.944  INFO 15068 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Microsoft
+2023-07-10 16:44:46.006  INFO 15068 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Microsoft
+2023-07-10 16:44:46.022  INFO 15068 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Microsoft
+2023-07-10 16:44:46.022  INFO 15068 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk scores calculated for all companies.
+2023-07-10 16:44:46.071  INFO 15068 --- [scheduling-1] c.example.dynamic.TaskSchedulerService   : GET request to my-endpoint, response code: 200
+2023-07-10 20:50:04.292  INFO 9272 --- [main] com.example.dynamic.DynamicApplication   : Starting DynamicApplication using Java 11.0.1 on IN-94682J3 with PID 9272 (C:\Users\kushalupadhayay\Downloads\dynamic\QCalculator\target\classes started by kushalupadhayay in C:\Users\kushalupadhayay\Downloads\dynamic\QCalculator)
+2023-07-10 20:50:04.292  INFO 9272 --- [main] com.example.dynamic.DynamicApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-07-10 20:50:05.123  INFO 9272 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-10 20:50:05.216  INFO 9272 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 80 ms. Found 7 JPA repository interfaces.
+2023-07-10 20:50:06.070  INFO 9272 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2023-07-10 20:50:06.086  INFO 9272 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-10 20:50:06.086  INFO 9272 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-07-10 20:50:06.233  INFO 9272 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-10 20:50:06.251  INFO 9272 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1908 ms
+2023-07-10 20:50:06.441  INFO 9272 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-10 20:50:06.488  INFO 9272 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-07-10 20:50:06.691  INFO 9272 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-07-10 20:50:06.807  INFO 9272 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-10 20:50:07.223  INFO 9272 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-10 20:50:07.240  INFO 9272 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-07-10 20:50:08.107  INFO 9272 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-10 20:50:08.117  INFO 9272 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-10 20:50:08.805  WARN 9272 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-10 20:50:09.145  INFO 9272 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2023-07-10 20:50:09.161  INFO 9272 --- [scheduling-1] c.example.dynamic.TaskSchedulerService   : Runnning......................
+2023-07-10 20:50:09.161  INFO 9272 --- [main] com.example.dynamic.DynamicApplication   : Started DynamicApplication in 5.264 seconds (JVM running for 5.772)
+2023-07-10 20:50:09.239  INFO 9272 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-10 20:50:09.239  INFO 9272 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-10 20:50:09.239  INFO 9272 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-07-10 20:50:09.272  INFO 9272 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Calculating risk scores for all companies...
+2023-07-10 20:50:09.340  INFO 9272 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: TCS
+2023-07-10 20:50:09.834  INFO 9272 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: TCS
+2023-07-10 20:50:09.887  INFO 9272 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: TCS
+2023-07-10 20:50:09.887  INFO 9272 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Google
+2023-07-10 20:50:09.973  INFO 9272 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Google
+2023-07-10 20:50:09.992  INFO 9272 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Google
+2023-07-10 20:50:09.992  INFO 9272 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Nagarro
+2023-07-10 20:50:10.079  INFO 9272 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Nagarro
+2023-07-10 20:50:10.084  INFO 9272 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Nagarro
+2023-07-10 20:50:10.084  INFO 9272 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Microsoft
+2023-07-10 20:50:10.157  INFO 9272 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Microsoft
+2023-07-10 20:50:10.157  INFO 9272 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Microsoft
+2023-07-10 20:50:10.157  INFO 9272 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk scores calculated for all companies.
+2023-07-10 20:50:10.240  INFO 9272 --- [scheduling-1] c.example.dynamic.TaskSchedulerService   : GET request to my-endpoint, response code: 200
+2023-07-10 20:58:07.680  WARN 9272 --- [http-nio-9090-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' not supported]
+2023-07-10 20:58:29.178  INFO 9272 --- [scheduling-1] c.example.dynamic.TaskSchedulerService   : Runnning......................
+2023-07-10 20:58:29.180  INFO 9272 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Calculating risk scores for all companies...
+2023-07-10 20:58:29.180  INFO 9272 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: TCS
+2023-07-10 20:58:29.245  INFO 9272 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: TCS
+2023-07-10 20:58:29.262  INFO 9272 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: TCS
+2023-07-10 20:58:29.262  INFO 9272 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Google
+2023-07-10 20:58:29.325  INFO 9272 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Google
+2023-07-10 20:58:29.325  INFO 9272 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Google
+2023-07-10 20:58:29.325  INFO 9272 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Nagarro
+2023-07-10 20:58:29.402  INFO 9272 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Nagarro
+2023-07-10 20:58:29.402  INFO 9272 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Nagarro
+2023-07-10 20:58:29.402  INFO 9272 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Microsoft
+2023-07-10 20:58:29.476  INFO 9272 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Microsoft
+2023-07-10 20:58:29.479  INFO 9272 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Microsoft
+2023-07-10 20:58:29.479  INFO 9272 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Risk scores calculated for all companies.
+2023-07-10 20:58:29.482  INFO 9272 --- [scheduling-1] c.example.dynamic.TaskSchedulerService   : GET request to my-endpoint, response code: 200
+2023-07-10 20:59:43.235 ERROR 9272 --- [http-nio-9090-exec-6] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.util.NoSuchElementException: No value present] with root cause
+
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:148) ~[na:na]
+	at com.example.dynamic.service.CalculationServiceImpl.getRiskLevelById(CalculationServiceImpl.java:452) ~[classes/:na]
+	at com.example.dynamic.controllers.RiskScoreLevelController.getRiskScoreWithId(RiskScoreLevelController.java:40) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529) ~[tomcat-embed-core-9.0.74.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[tomcat-embed-core-9.0.74.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2023-07-10 21:06:49.165  INFO 9272 --- [scheduling-1] c.example.dynamic.TaskSchedulerService   : Runnning......................
+2023-07-10 21:06:49.165  INFO 9272 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Calculating risk scores for all companies...
+2023-07-10 21:06:49.165  INFO 9272 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: TCS
+2023-07-10 21:06:49.332  INFO 9272 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: TCS
+2023-07-10 21:06:49.332  INFO 9272 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: TCS
+2023-07-10 21:06:49.332  INFO 9272 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Google
+2023-07-10 21:06:49.488  INFO 9272 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Google
+2023-07-10 21:06:49.506  INFO 9272 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Google
+2023-07-10 21:06:49.506  INFO 9272 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Nagarro
+2023-07-10 21:06:49.650  INFO 9272 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Nagarro
+2023-07-10 21:06:49.663  INFO 9272 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Nagarro
+2023-07-10 21:06:49.663  INFO 9272 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Microsoft
+2023-07-10 21:06:49.810  INFO 9272 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Microsoft
+2023-07-10 21:06:49.826  INFO 9272 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Microsoft
+2023-07-10 21:06:49.826  INFO 9272 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Risk scores calculated for all companies.
+2023-07-10 21:06:49.826  INFO 9272 --- [scheduling-1] c.example.dynamic.TaskSchedulerService   : GET request to my-endpoint, response code: 200
+2023-07-10 21:10:10.573  INFO 9272 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Retrieving all risk score caps.
+2023-07-10 21:10:10.580  INFO 9272 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Retrieved all risk score caps.
+2023-07-10 21:10:10.589  INFO 9272 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Retrieving all risk score caps.
+2023-07-10 21:10:10.589  INFO 9272 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Retrieved all risk score caps.
+2023-07-10 21:10:18.003  INFO 9272 --- [http-nio-9090-exec-6] c.e.d.service.CalculationServiceImpl     : Retrieving data for riskScoreCap: High riskwith counter 1
+2023-07-10 21:10:18.035  INFO 9272 --- [http-nio-9090-exec-7] c.e.d.service.CalculationServiceImpl     : Retrieving all risk score caps.
+2023-07-10 21:10:18.037  INFO 9272 --- [http-nio-9090-exec-7] c.e.d.service.CalculationServiceImpl     : Retrieved all risk score caps.
+2023-07-10 21:10:18.045  INFO 9272 --- [http-nio-9090-exec-8] c.e.d.service.CalculationServiceImpl     : Retrieving all risk score caps.
+2023-07-10 21:10:18.054  INFO 9272 --- [http-nio-9090-exec-8] c.e.d.service.CalculationServiceImpl     : Retrieved all risk score caps.
+2023-07-10 21:10:49.580  INFO 9272 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Retrieving data for riskScoreCap: High riskwith counter 1
+2023-07-10 21:10:49.632  INFO 9272 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Retrieving all risk score caps.
+2023-07-10 21:10:49.636  INFO 9272 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Retrieved all risk score caps.
+2023-07-10 21:10:49.636  INFO 9272 --- [http-nio-9090-exec-4] c.e.d.service.CalculationServiceImpl     : Retrieving all risk score caps.
+2023-07-10 21:10:49.636  INFO 9272 --- [http-nio-9090-exec-4] c.e.d.service.CalculationServiceImpl     : Retrieved all risk score caps.
+2023-07-10 21:15:02.683  INFO 9272 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Retrieving all risk calculation formulas.
+2023-07-10 21:15:02.689  INFO 9272 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Retrieved all risk calculation formulas.
+2023-07-10 21:15:02.695  INFO 9272 --- [http-nio-9090-exec-4] c.e.d.service.CalculationServiceImpl     : Retrieving all risk calculation formulas.
+2023-07-10 21:15:02.701  INFO 9272 --- [http-nio-9090-exec-4] c.e.d.service.CalculationServiceImpl     : Retrieved all risk calculation formulas.
+2023-07-10 21:15:04.319  INFO 9272 --- [http-nio-9090-exec-3] c.e.d.service.CalculationServiceImpl     : Retrieving data for formula: info_sec_weight
+2023-07-10 21:15:04.326  INFO 9272 --- [http-nio-9090-exec-3] c.e.d.service.CalculationServiceImpl     : Retrieved data for formula: info_sec_weight
+2023-07-10 21:15:04.335  INFO 9272 --- [http-nio-9090-exec-5] c.e.d.service.CalculationServiceImpl     : Retrieving data for formula: info_sec_weight
+2023-07-10 21:15:04.338  INFO 9272 --- [http-nio-9090-exec-5] c.e.d.service.CalculationServiceImpl     : Retrieved data for formula: info_sec_weight
+2023-07-10 21:15:09.161  INFO 9272 --- [scheduling-1] c.example.dynamic.TaskSchedulerService   : Runnning......................
+2023-07-10 21:15:09.166  INFO 9272 --- [http-nio-9090-exec-6] c.e.d.service.CalculationServiceImpl     : Calculating risk scores for all companies...
+2023-07-10 21:15:09.166  INFO 9272 --- [http-nio-9090-exec-6] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: TCS
+2023-07-10 21:15:09.312  INFO 9272 --- [http-nio-9090-exec-6] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: TCS
+2023-07-10 21:15:09.318  INFO 9272 --- [http-nio-9090-exec-6] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: TCS
+2023-07-10 21:15:09.319  INFO 9272 --- [http-nio-9090-exec-6] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Google
+2023-07-10 21:15:09.459  INFO 9272 --- [http-nio-9090-exec-6] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Google
+2023-07-10 21:15:09.468  INFO 9272 --- [http-nio-9090-exec-6] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Google
+2023-07-10 21:15:09.468  INFO 9272 --- [http-nio-9090-exec-6] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Nagarro
+2023-07-10 21:15:09.598  INFO 9272 --- [http-nio-9090-exec-6] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Nagarro
+2023-07-10 21:15:09.613  INFO 9272 --- [http-nio-9090-exec-6] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Nagarro
+2023-07-10 21:15:09.613  INFO 9272 --- [http-nio-9090-exec-6] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Microsoft
+2023-07-10 21:15:09.746  INFO 9272 --- [http-nio-9090-exec-6] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Microsoft
+2023-07-10 21:15:09.755  INFO 9272 --- [http-nio-9090-exec-6] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Microsoft
+2023-07-10 21:15:09.756  INFO 9272 --- [http-nio-9090-exec-6] c.e.d.service.CalculationServiceImpl     : Risk scores calculated for all companies.
+2023-07-10 21:15:09.764  INFO 9272 --- [scheduling-1] c.example.dynamic.TaskSchedulerService   : GET request to my-endpoint, response code: 200
+2023-07-10 21:15:50.279  INFO 9272 --- [http-nio-9090-exec-7] c.e.d.service.CalculationServiceImpl     : Retrieving all risk calculation formulas.
+2023-07-10 21:15:50.287  INFO 9272 --- [http-nio-9090-exec-7] c.e.d.service.CalculationServiceImpl     : Retrieved all risk calculation formulas.
+2023-07-10 21:15:50.294  INFO 9272 --- [http-nio-9090-exec-8] c.e.d.service.CalculationServiceImpl     : Retrieving all risk calculation formulas.
+2023-07-10 21:15:50.300  INFO 9272 --- [http-nio-9090-exec-8] c.e.d.service.CalculationServiceImpl     : Retrieved all risk calculation formulas.
+2023-07-10 21:15:51.950  INFO 9272 --- [http-nio-9090-exec-9] c.e.d.service.CalculationServiceImpl     : Retrieving data for formula: info_sec_weight
+2023-07-10 21:15:51.950  INFO 9272 --- [http-nio-9090-exec-9] c.e.d.service.CalculationServiceImpl     : Retrieved data for formula: info_sec_weight
+2023-07-10 21:15:51.959  INFO 9272 --- [http-nio-9090-exec-10] c.e.d.service.CalculationServiceImpl     : Retrieving data for formula: info_sec_weight
+2023-07-10 21:15:51.964  INFO 9272 --- [http-nio-9090-exec-10] c.e.d.service.CalculationServiceImpl     : Retrieved data for formula: info_sec_weight
+2023-07-10 21:17:41.383  INFO 9272 --- [http-nio-9090-exec-4] c.e.d.service.CalculationServiceImpl     : Retrieving all risk score caps.
+2023-07-10 21:17:41.394  INFO 9272 --- [http-nio-9090-exec-4] c.e.d.service.CalculationServiceImpl     : Retrieved all risk score caps.
+2023-07-10 21:17:41.398  INFO 9272 --- [http-nio-9090-exec-3] c.e.d.service.CalculationServiceImpl     : Retrieving all risk score caps.
+2023-07-10 21:17:41.403  INFO 9272 --- [http-nio-9090-exec-3] c.e.d.service.CalculationServiceImpl     : Retrieved all risk score caps.
+2023-07-10 21:17:48.108  INFO 9272 --- [http-nio-9090-exec-7] c.e.d.service.CalculationServiceImpl     : Retrieving data for riskScoreCap: High riskwith counter 1
+2023-07-10 21:17:48.186  INFO 9272 --- [http-nio-9090-exec-8] c.e.d.service.CalculationServiceImpl     : Retrieving all risk score caps.
+2023-07-10 21:17:48.191  INFO 9272 --- [http-nio-9090-exec-8] c.e.d.service.CalculationServiceImpl     : Retrieved all risk score caps.
+2023-07-10 21:17:48.191  INFO 9272 --- [http-nio-9090-exec-9] c.e.d.service.CalculationServiceImpl     : Retrieving all risk score caps.
+2023-07-10 21:17:48.200  INFO 9272 --- [http-nio-9090-exec-9] c.e.d.service.CalculationServiceImpl     : Retrieved all risk score caps.
+2023-07-10 21:23:29.156  INFO 9272 --- [scheduling-1] c.example.dynamic.TaskSchedulerService   : Runnning......................
+2023-07-10 21:23:29.161  INFO 9272 --- [http-nio-9090-exec-8] c.e.d.service.CalculationServiceImpl     : Calculating risk scores for all companies...
+2023-07-10 21:23:29.161  INFO 9272 --- [http-nio-9090-exec-8] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: TCS
+2023-07-10 21:23:29.318  INFO 9272 --- [http-nio-9090-exec-8] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: TCS
+2023-07-10 21:23:29.322  INFO 9272 --- [http-nio-9090-exec-8] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: TCS
+2023-07-10 21:23:29.322  INFO 9272 --- [http-nio-9090-exec-8] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Google
+2023-07-10 21:23:29.467  INFO 9272 --- [http-nio-9090-exec-8] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Google
+2023-07-10 21:23:29.470  INFO 9272 --- [http-nio-9090-exec-8] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Google
+2023-07-10 21:23:29.470  INFO 9272 --- [http-nio-9090-exec-8] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Nagarro
+2023-07-10 21:23:29.601  INFO 9272 --- [http-nio-9090-exec-8] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Nagarro
+2023-07-10 21:23:29.606  INFO 9272 --- [http-nio-9090-exec-8] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Nagarro
+2023-07-10 21:23:29.606  INFO 9272 --- [http-nio-9090-exec-8] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Microsoft
+2023-07-10 21:23:29.735  INFO 9272 --- [http-nio-9090-exec-8] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Microsoft
+2023-07-10 21:23:29.735  INFO 9272 --- [http-nio-9090-exec-8] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Microsoft
+2023-07-10 21:23:29.735  INFO 9272 --- [http-nio-9090-exec-8] c.e.d.service.CalculationServiceImpl     : Risk scores calculated for all companies.
+2023-07-10 21:23:29.751  INFO 9272 --- [scheduling-1] c.example.dynamic.TaskSchedulerService   : GET request to my-endpoint, response code: 200
+2023-07-10 21:30:47.505  INFO 9272 --- [http-nio-9090-exec-8] c.e.d.service.CalculationServiceImpl     : Retrieving all risk score caps.
+2023-07-10 21:30:47.511  INFO 9272 --- [http-nio-9090-exec-8] c.e.d.service.CalculationServiceImpl     : Retrieved all risk score caps.
+2023-07-10 21:30:47.518  INFO 9272 --- [http-nio-9090-exec-9] c.e.d.service.CalculationServiceImpl     : Retrieving all risk score caps.
+2023-07-10 21:30:47.523  INFO 9272 --- [http-nio-9090-exec-9] c.e.d.service.CalculationServiceImpl     : Retrieved all risk score caps.
+2023-07-10 21:31:49.160  INFO 9272 --- [scheduling-1] c.example.dynamic.TaskSchedulerService   : Runnning......................
+2023-07-10 21:31:49.161  INFO 9272 --- [http-nio-9090-exec-4] c.e.d.service.CalculationServiceImpl     : Calculating risk scores for all companies...
+2023-07-10 21:31:49.173  INFO 9272 --- [http-nio-9090-exec-4] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: TCS
+2023-07-10 21:31:49.332  INFO 9272 --- [http-nio-9090-exec-4] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: TCS
+2023-07-10 21:31:49.339  INFO 9272 --- [http-nio-9090-exec-4] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: TCS
+2023-07-10 21:31:49.340  INFO 9272 --- [http-nio-9090-exec-4] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Google
+2023-07-10 21:31:49.502  INFO 9272 --- [http-nio-9090-exec-4] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Google
+2023-07-10 21:31:49.508  INFO 9272 --- [http-nio-9090-exec-4] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Google
+2023-07-10 21:31:49.509  INFO 9272 --- [http-nio-9090-exec-4] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Nagarro
+2023-07-10 21:31:49.649  INFO 9272 --- [http-nio-9090-exec-4] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Nagarro
+2023-07-10 21:31:49.655  INFO 9272 --- [http-nio-9090-exec-4] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Nagarro
+2023-07-10 21:31:49.655  INFO 9272 --- [http-nio-9090-exec-4] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Microsoft
+2023-07-10 21:31:49.786  INFO 9272 --- [http-nio-9090-exec-4] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Microsoft
+2023-07-10 21:31:49.793  INFO 9272 --- [http-nio-9090-exec-4] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Microsoft
+2023-07-10 21:31:49.794  INFO 9272 --- [http-nio-9090-exec-4] c.e.d.service.CalculationServiceImpl     : Risk scores calculated for all companies.
+2023-07-10 21:31:49.799  INFO 9272 --- [scheduling-1] c.example.dynamic.TaskSchedulerService   : GET request to my-endpoint, response code: 200
+2023-07-10 21:38:23.688  INFO 9272 --- [http-nio-9090-exec-9] c.e.d.service.CalculationServiceImpl     : Retrieving all risk calculation formulas.
+2023-07-10 21:38:23.696  INFO 9272 --- [http-nio-9090-exec-9] c.e.d.service.CalculationServiceImpl     : Retrieved all risk calculation formulas.
+2023-07-10 21:38:23.704  INFO 9272 --- [http-nio-9090-exec-10] c.e.d.service.CalculationServiceImpl     : Retrieving all risk calculation formulas.
+2023-07-10 21:38:23.706  INFO 9272 --- [http-nio-9090-exec-10] c.e.d.service.CalculationServiceImpl     : Retrieved all risk calculation formulas.
+2023-07-10 21:38:25.712  INFO 9272 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Retrieving data for formula: info_sec_weight
+2023-07-10 21:38:25.715  INFO 9272 --- [http-nio-9090-exec-1] c.e.d.service.CalculationServiceImpl     : Retrieved data for formula: info_sec_weight
+2023-07-10 21:38:25.721  INFO 9272 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Retrieving data for formula: info_sec_weight
+2023-07-10 21:38:25.721  INFO 9272 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Retrieved data for formula: info_sec_weight
+2023-07-10 21:40:09.164  INFO 9272 --- [scheduling-1] c.example.dynamic.TaskSchedulerService   : Runnning......................
+2023-07-10 21:40:09.165  INFO 9272 --- [http-nio-9090-exec-3] c.e.d.service.CalculationServiceImpl     : Calculating risk scores for all companies...
+2023-07-10 21:40:09.165  INFO 9272 --- [http-nio-9090-exec-3] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: TCS
+2023-07-10 21:40:09.335  INFO 9272 --- [http-nio-9090-exec-3] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: TCS
+2023-07-10 21:40:09.343  INFO 9272 --- [http-nio-9090-exec-3] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: TCS
+2023-07-10 21:40:09.344  INFO 9272 --- [http-nio-9090-exec-3] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Google
+2023-07-10 21:40:09.477  INFO 9272 --- [http-nio-9090-exec-3] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Google
+2023-07-10 21:40:09.494  INFO 9272 --- [http-nio-9090-exec-3] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Google
+2023-07-10 21:40:09.498  INFO 9272 --- [http-nio-9090-exec-3] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Nagarro
+2023-07-10 21:40:09.638  INFO 9272 --- [http-nio-9090-exec-3] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Nagarro
+2023-07-10 21:40:09.644  INFO 9272 --- [http-nio-9090-exec-3] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Nagarro
+2023-07-10 21:40:09.644  INFO 9272 --- [http-nio-9090-exec-3] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Microsoft
+2023-07-10 21:40:09.767  INFO 9272 --- [http-nio-9090-exec-3] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Microsoft
+2023-07-10 21:40:09.771  INFO 9272 --- [http-nio-9090-exec-3] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Microsoft
+2023-07-10 21:40:09.771  INFO 9272 --- [http-nio-9090-exec-3] c.e.d.service.CalculationServiceImpl     : Risk scores calculated for all companies.
+2023-07-10 21:40:09.777  INFO 9272 --- [scheduling-1] c.example.dynamic.TaskSchedulerService   : GET request to my-endpoint, response code: 200
+2023-07-10 21:57:58.913  INFO 11588 --- [main] com.example.dynamic.DynamicApplication   : Starting DynamicApplication using Java 11.0.1 on IN-94682J3 with PID 11588 (C:\Users\kushalupadhayay\Downloads\dynamic\QCalculator\target\classes started by kushalupadhayay in C:\Users\kushalupadhayay\Downloads\dynamic\QCalculator)
+2023-07-10 21:57:58.920  INFO 11588 --- [main] com.example.dynamic.DynamicApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-07-10 21:58:00.244  INFO 11588 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-10 21:58:00.334  INFO 11588 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 76 ms. Found 7 JPA repository interfaces.
+2023-07-10 21:58:01.131  INFO 11588 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2023-07-10 21:58:01.147  INFO 11588 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-10 21:58:01.147  INFO 11588 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-07-10 21:58:01.315  INFO 11588 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-10 21:58:01.319  INFO 11588 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2340 ms
+2023-07-10 21:58:01.530  INFO 11588 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-10 21:58:01.586  INFO 11588 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-07-10 21:58:01.749  INFO 11588 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-07-10 21:58:01.867  INFO 11588 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-10 21:58:02.211  INFO 11588 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-10 21:58:02.227  INFO 11588 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-07-10 21:58:03.095  INFO 11588 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-10 21:58:03.097  INFO 11588 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-10 21:58:03.698  WARN 11588 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-10 21:58:04.097  INFO 11588 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2023-07-10 21:58:04.106  INFO 11588 --- [scheduling-1] c.example.dynamic.TaskSchedulerService   : Runnning......................
+2023-07-10 21:58:04.112  INFO 11588 --- [main] com.example.dynamic.DynamicApplication   : Started DynamicApplication in 5.626 seconds (JVM running for 6.289)
+2023-07-10 21:58:04.182  INFO 11588 --- [http-nio-9090-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-10 21:58:04.192  INFO 11588 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-10 21:58:04.192  INFO 11588 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-07-10 21:58:04.220  INFO 11588 --- [http-nio-9090-exec-3] c.e.d.service.CalculationServiceImpl     : Calculating risk scores for all companies...
+2023-07-10 21:58:04.299  INFO 11588 --- [http-nio-9090-exec-3] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: TCS
+2023-07-10 21:58:04.811  INFO 11588 --- [http-nio-9090-exec-3] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: TCS
+2023-07-10 21:58:04.852  INFO 11588 --- [http-nio-9090-exec-3] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: TCS
+2023-07-10 21:58:04.852  INFO 11588 --- [http-nio-9090-exec-3] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Google
+2023-07-10 21:58:04.967  INFO 11588 --- [http-nio-9090-exec-3] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Google
+2023-07-10 21:58:04.972  INFO 11588 --- [http-nio-9090-exec-3] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Google
+2023-07-10 21:58:04.972  INFO 11588 --- [http-nio-9090-exec-3] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Nagarro
+2023-07-10 21:58:05.098  INFO 11588 --- [http-nio-9090-exec-3] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Nagarro
+2023-07-10 21:58:05.103  INFO 11588 --- [http-nio-9090-exec-3] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Nagarro
+2023-07-10 21:58:05.103  INFO 11588 --- [http-nio-9090-exec-3] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Microsoft
+2023-07-10 21:58:05.203  INFO 11588 --- [http-nio-9090-exec-3] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Microsoft
+2023-07-10 21:58:05.209  INFO 11588 --- [http-nio-9090-exec-3] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Microsoft
+2023-07-10 21:58:05.209  INFO 11588 --- [http-nio-9090-exec-3] c.e.d.service.CalculationServiceImpl     : Risk scores calculated for all companies.
+2023-07-10 21:58:05.280  INFO 11588 --- [scheduling-1] c.example.dynamic.TaskSchedulerService   : GET request to my-endpoint, response code: 200
+2023-07-10 22:02:10.573  INFO 13184 --- [main] com.example.dynamic.DynamicApplication   : Starting DynamicApplication using Java 11.0.1 on IN-94682J3 with PID 13184 (C:\Users\kushalupadhayay\Downloads\dynamic\QCalculator\target\classes started by kushalupadhayay in C:\Users\kushalupadhayay\Downloads\dynamic\QCalculator)
+2023-07-10 22:02:10.579  INFO 13184 --- [main] com.example.dynamic.DynamicApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-07-10 22:02:11.553  INFO 13184 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-10 22:02:11.670  INFO 13184 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 95 ms. Found 7 JPA repository interfaces.
+2023-07-10 22:02:12.634  INFO 13184 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2023-07-10 22:02:12.642  INFO 13184 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-10 22:02:12.642  INFO 13184 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-07-10 22:02:12.800  INFO 13184 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-10 22:02:12.800  INFO 13184 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2114 ms
+2023-07-10 22:02:12.996  INFO 13184 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-10 22:02:13.053  INFO 13184 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-07-10 22:02:13.221  INFO 13184 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-07-10 22:02:13.413  INFO 13184 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-10 22:02:13.819  INFO 13184 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-10 22:02:13.835  INFO 13184 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-07-10 22:02:14.612  INFO 13184 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-10 22:02:14.626  INFO 13184 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-10 22:02:15.412  WARN 13184 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-10 22:02:15.829  INFO 13184 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2023-07-10 22:02:15.829  INFO 13184 --- [scheduling-1] c.example.dynamic.TaskSchedulerService   : Runnning......................
+2023-07-10 22:02:15.838  INFO 13184 --- [main] com.example.dynamic.DynamicApplication   : Started DynamicApplication in 5.73 seconds (JVM running for 6.344)
+2023-07-10 22:02:15.896  INFO 13184 --- [http-nio-9090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-10 22:02:15.901  INFO 13184 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-10 22:02:15.901  INFO 13184 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-07-10 22:02:15.929  INFO 13184 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Calculating risk scores for all companies...
+2023-07-10 22:02:16.001  INFO 13184 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: TCS
+2023-07-10 22:02:16.481  INFO 13184 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: TCS
+2023-07-10 22:02:16.531  INFO 13184 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: TCS
+2023-07-10 22:02:16.531  INFO 13184 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Google
+2023-07-10 22:02:16.635  INFO 13184 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Google
+2023-07-10 22:02:16.641  INFO 13184 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Google
+2023-07-10 22:02:16.641  INFO 13184 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Nagarro
+2023-07-10 22:02:16.739  INFO 13184 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Nagarro
+2023-07-10 22:02:16.746  INFO 13184 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Nagarro
+2023-07-10 22:02:16.746  INFO 13184 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Calculating risk score for company: Microsoft
+2023-07-10 22:02:16.858  INFO 13184 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Risk score calculated for company: Microsoft
+2023-07-10 22:02:16.865  INFO 13184 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Risk score calculated and saved for company: Microsoft
+2023-07-10 22:02:16.865  INFO 13184 --- [http-nio-9090-exec-2] c.e.d.service.CalculationServiceImpl     : Risk scores calculated for all companies.
+2023-07-10 22:02:16.952  INFO 13184 --- [scheduling-1] c.example.dynamic.TaskSchedulerService   : GET request to my-endpoint, response code: 200

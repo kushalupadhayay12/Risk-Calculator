@@ -1,6 +1,9 @@
 package com.example.dynamic.models;
 
 import javax.persistence.*;
+import javax.validation.constraints.Max;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotNull;
 
 @Entity
 @Table(name = "risk_dimension_table")
@@ -12,9 +15,13 @@ public class RiskDimension {
 	private long id;
 	
 	@Column
+	@NotNull
 	private String name;
 	
 	@Column
+	@NotNull
+	@Min(1)
+	@Max(99)
 	private int value;
 	
 	public RiskDimension() {}

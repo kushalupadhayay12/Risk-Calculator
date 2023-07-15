@@ -12,6 +12,8 @@ import javax.persistence.JoinColumn;
 import javax.persistence.MapKeyColumn;
 import javax.persistence.Table;
 
+import org.hibernate.annotations.Cascade;
+
 @Entity
 @Table(name = "output_table")
 public class Output {
@@ -25,6 +27,7 @@ public class Output {
 			joinColumns = @JoinColumn(name = "output_table_company_name"))
 	@MapKeyColumn(name = "output_type")
 	@Column(name = "output_value")
+	@Cascade(org.hibernate.annotations.CascadeType.ALL)
 	private Map<String, Double> properties = new HashMap<String, Double>();
 	
 	public Output () {}

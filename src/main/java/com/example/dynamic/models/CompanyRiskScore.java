@@ -2,8 +2,11 @@ package com.example.dynamic.models;
 
 import java.util.*;
 import javax.persistence.*;
+import javax.validation.constraints.Max;
+import javax.validation.constraints.Min;
 
 import com.sun.istack.NotNull;
+import org.hibernate.annotations.Cascade;
 
 @Entity
 @Table(name = "company_risk_score")
@@ -23,7 +26,9 @@ public class CompanyRiskScore {
 	@MapKeyColumn(name = "dimension_type")
 	@Column(name = "dimension_value")
 	@NotNull
-	private Map<String, Integer> properties = new HashMap<String, Integer>();
+	@Cascade(org.hibernate.annotations.CascadeType.ALL)
+   
+	private Map<String, @Min(1) @Max(99)Integer> properties = new HashMap<String, Integer>();
 
 	public CompanyRiskScore() {}
 	

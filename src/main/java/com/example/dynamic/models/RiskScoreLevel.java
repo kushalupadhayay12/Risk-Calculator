@@ -5,23 +5,33 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 
 import javax.persistence.Table;
+import javax.validation.constraints.NotNull;
+
+import com.example.dynamic.contraints.ValidScoreRange;
 
 @Entity
 @Table(name = "risk_score_level")
 public class RiskScoreLevel {
 
 	@Id	
+	@NotNull
 	@Column
 	private String level;
 	
 	@Column
-	private String score;
+	@NotNull
+	private int lowerBound;
+	
+	@Column
+	@NotNull
+	private int upperBound;
 	
 	public RiskScoreLevel() {}
-
-	public RiskScoreLevel(String level, String score) {
+	
+	public RiskScoreLevel(@NotNull String level, @NotNull int lowerBound, @NotNull int upperBound) {
 		this.level = level;
-		this.score = score;
+		this.lowerBound = lowerBound;
+		this.upperBound = upperBound;
 	}
 
 	public String getLevel() {
@@ -32,11 +42,19 @@ public class RiskScoreLevel {
 		this.level = level;
 	}
 
-	public String getScore() {
-		return score;
+	public int getLowerBound() {
+		return lowerBound;
 	}
 
-	public void setScore(String score) {
-		this.score = score;
+	public void setLowerBound(int lowerBound) {
+		this.lowerBound = lowerBound;
+	}
+
+	public int getUpperBound() {
+		return upperBound;
+	}
+
+	public void setUpperBound(int upperBound) {
+		this.upperBound = upperBound;
 	}
 }
